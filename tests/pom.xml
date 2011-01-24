@@ -73,5 +73,17 @@
             <artifactId>jruby</artifactId>
             <version>1.6.0.RC1</version>
         </dependency>
+        <dependency>
+        	<groupId>com.justinedelson.jrubyosgi</groupId>
+        	<artifactId>api.bundle</artifactId>
+        	<version>0.0.1-SNAPSHOT</version>
+        	<scope>test</scope>
+        </dependency>
+        <dependency>
+        	<groupId>commons-io</groupId>
+        	<artifactId>commons-io</artifactId>
+        	<version>1.4</version>
+        	<scope>test</scope>
+        </dependency>
     </dependencies>
 </project>
