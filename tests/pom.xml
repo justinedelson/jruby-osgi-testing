@@ -13,18 +13,9 @@
     <name>JRuby OSGi Tests Project</name>
 
     <properties>
-        <jruby.version>1.5.6</jruby.version>
+        <jruby.version>1.6.0.RC1</jruby.version>
     </properties>
-
-    <profiles>
-        <profile>
-            <id>jruby16</id>
-            <properties>
-                <jruby.version>1.6.0.RC1</jruby.version>
-            </properties>
-        </profile>
-    </profiles>
-
+    
     <build>
         <plugins>
             <plugin>
